@@ -1,1 +1,153 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+body {
+  width: 100%;
+  margin: 0;
+}
+
+.navbar {
+  margin: auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: bisque;
+}
+
+.logo {
+  margin-left: 10rem;
+  display: inline;
+}
+
+.logo:hover {
+  cursor: pointer;
+  color: #c47272;
+}
+
+.nav-link {
+  margin-right: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+.nav-link li {
+  margin: 0 2rem;
+}
+
+.nav-link li:hover {
+  cursor: pointer;
+  color: #c47272;
+}
+
+.main-section {
+  width: 100%;
+  margin: 0;
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content-section {
+  width: 70%;
+  padding: 1rem;
+}
+
+.sidebar {
+  width: 30%;
+  background-color: bisque;
+  padding: 1rem;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.card {
+  width: 30%;
+  margin: 0.5rem;
+  border: 3px solid;
+  border-color: bisque;
+}
+
+.card-heading {
+  background-color: bisque;
+  padding-left: 7px;
+  height: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-heading h3 {
+  margin: 0;
+}
+
+.card-text {
+  padding: 10px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 1150px) {
+  .card {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .logo {
+    margin-left: 5rem;
+  }
+  .nav-link {
+    margin-right: 5rem;
+  }
+  .sidebar {
+    display: none;
+  }
+  .content-section {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .logo {
+    margin-left: 2rem;
+  }
+  .nav-link {
+    margin-right: 2rem;
+  }
+  .nav-link li {
+    margin: 0 1rem;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .card {
+    width: 80%;
+  }
+  .cards {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .nav-link {
+    margin-right: 5px;
+  }
+  .nav-link li {
+    margin-left: 5px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
